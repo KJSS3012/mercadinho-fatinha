@@ -1,10 +1,154 @@
 [
   {
-    "name": "Carne",
-    "price": 4.5
+    "name": "Carvão",
+    "price": 14.0
   },
   {
-    "name": "Macarrão",
-    "price": 2.8
+    "name": "Shampoo Seda",
+    "price": 14.0
+  },
+  {
+    "name": "Ovo (Placa)",
+    "price": 14.0
+  },
+{
+    "name": "Ovo (Unidade)",
+    "price": 1.0
+  },
+{
+    "name": "Arroz Chinês",
+    "price": 9.5
+  },
+{
+    "name": "Arroz Vermelho",
+    "price": 9.5
+  },
+{
+    "name": "Farinha de Trigo Fina Tradicional",
+    "price": 6.5
+  },
+{
+    "name": "Creme de Leite Italac",
+    "price": 4.0
+  },
+{
+    "name": "Creme de Leite Damare",
+    "price": 3.0
+  },
+{
+    "name": "Leite Condensado",
+    "price": 7.9
+  },
+{
+    "name": "Café Kimimo",
+    "price": 11.0
+  },
+{
+    "name": "Milho de Pipoca Kimimo",
+    "price": 4.6
+  },
+{
+    "name": "Cuscuz São Braz",
+    "price": 2.5
+  },
+{
+    "name": "Cuscuz Dona Clara",
+    "price": 2.3
+  },
+{
+    "name": "Pão",
+    "price": 0.8
+  },
+{
+    "name": "Detergente Limpol Bom Bril",
+    "price": 2.5
+  },
+{
+    "name": "Cachaça Ypióca Lata",
+    "price": 4.0
+  },
+{
+    "name": "Cachaça 51 Lata",
+    "price": 6.0
+  },
+{
+    "name": "Batata Palha Pratic Leve",
+    "price": 5.5
+  },
+{
+    "name": "Desinfetante Minuano",
+    "price": 2.5
+  },
+{
+    "name": "Lava-Louças Brilux",
+    "price": 2.4
+  },
+{
+    "name": "Shampoo Clear Sports",
+    "price": 19.5
+  },
+{
+    "name": "Refrigerante Guaraná 2L",
+    "price": 10.0
+  },
+{
+    "name": "Refrigerante Coca-Cola 2L",
+    "price": 13.0
+  },
+{
+    "name": "Refrigerante Pepsi 2L",
+    "price": 10.0
+  },
+{
+    "name": "Energético RedBull 250ml",
+    "price": 10.0
+  },
+{
+    "name": "Cachaça Pitú Lata",
+    "price": 7.0
+  },
+{
+    "name": "Cachaça Caranguejo Prata Lata",
+    "price": 6.0
+  },
+{
+    "name": "Cachaça Caranguejo Prata 980ml",
+    "price": 12.0
+  },
+{
+    "name": "Cachaça Caranguejo Ouro Lata",
+    "price": 7.0
+  },
+{
+    "name": "Cachaça Caranguejo Ouro 980ml",
+    "price": 14.0
+  },
+{
+    "name": "Bananada Boa Vista 500g",
+    "price": 6.5
+  },
+{
+    "name": "Bananada Boa Vista 250g",
+    "price": 3.8
+  },
+{
+    "name": "Lanchinho Boa Vista",
+    "price": 3.8
+  },
+{
+    "name": "Fósforo Argos Pacote",
+    "price": 4.9
+  },
+{
+    "name": "Fósforo QueLuz Pacote",
+    "price": 4.5
+  },
+{
+    "name": "Fósforo Argos Unidade",
+    "price": 0.5
+  },
+{
+    "name": "Fósforo QueLuz Unidade",
+    "price": 0.5
   }
 ]
