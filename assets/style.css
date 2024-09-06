@@ -1,0 +1,109 @@
+/* Define uma paleta de cores minimalista */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #ecf0f1;
+  --accent-color: #3498db;
+  --accent-color-dark: #2673a7;
+  --text-color: #2c3e50;
+  --background-color: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  gap: 1.5em;
+}
+
+#search {
+  font-size: 1.25rem;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 2em;
+  border: 1px solid var(--primary-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#search:focus {
+  border-color: var(--accent-color);
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 2em;
+  background-color: var(--accent-color);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--accent-color-dark);
+}
+
+#product {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  background-color: var(--secondary-color);
+  border-radius: 1em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h3, h4 {
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+/* Estiliza a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: normal;
+}
+
+td {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border-bottom: 1px solid #ddd;
+}
+
