@@ -7,8 +7,11 @@ let products = [];
 
 async function loadResources() {
   try {
-    let response = await fetch("assets/products.json");
-    products = await response.json();
+    let response = await fetch(
+      "https://docs.google.com/spreadsheets/d/e/2PACX-1vRwFqwwwOjkAgtasNkmpHB0dnbMx6H0i9vUllrklX-5Up3378g8ng1irJN_NIIWPmmg4XQeIn-NlitI/pub?output=csv"
+    );
+    products = await response.text();
+    products = csvToJson(products);
   } catch (error) {
     console.error("Erro ao carregar os produtos:", error);
   }
@@ -32,6 +35,7 @@ function verifyProducts(event) {
 }
 
 function formaterPrice(price) {
+  price = Number(price);
   let formatted = price.toFixed(2).replace(".", ",");
   return `R$ ${formatted}`;
 }
@@ -44,4 +48,26 @@ function addOptions() {
     option.value = product.name;
     datalist.appendChild(option);
   });
+}
+
+function csvToJson(csv) {
+  const lines = csv.split("\n");
+  const result = [];
+  var headers = lines[0].replace(/"/g, "").replace("\r", "").split(",");
+
+  for (let line = 1; line < lines.length; line++) {
+    const obj = {};
+    const currentLine = lines[line]
+      .replace(/"/g, "")
+      .replace("\r", "")
+      .split(",");
+
+    for (let collumn = 0; collumn < headers.length; collumn++) {
+      obj[headers[collumn]] = currentLine[collumn];
+    }
+
+    result.push(obj);
+  }
+
+  return result;
 }
